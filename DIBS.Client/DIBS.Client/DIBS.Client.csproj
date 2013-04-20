@@ -44,6 +44,7 @@
     <Compile Include="DibsCallback.cs" />
     <Compile Include="DibsPost.cs" />
     <Compile Include="HMAC.cs" />
+    <Compile Include="IDibsCallback.cs" />
     <Compile Include="IDibsPost.cs" />
     <Compile Include="IgnoreHashingAttribute.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

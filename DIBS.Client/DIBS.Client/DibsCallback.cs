@@ -1,6 +1,6 @@
 ﻿namespace DIBS.Client
 {
-    public class DibsCallback : DibsPost
+    public class DibsCallback : DibsPost, IDibsCallback
     {
         public string Acquirer { get; set; }
 
