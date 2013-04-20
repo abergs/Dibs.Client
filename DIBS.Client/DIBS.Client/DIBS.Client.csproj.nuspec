@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>DIBS.Client</id>
+    <version>1.0.0</version>
+    <authors>Anders Aberg</authors>
+    <owners>Anders Aberg</owners>
+    <projectUrl>https://github.com/abergs/Dibs.Client</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Simple Client for DIBS payment with support for HMAC encryption</description>
+    <releaseNotes>First release. Client and tests.</releaseNotes>
+    <copyright>Copyright 2013</copyright>
+  </metadata>
+</package>
