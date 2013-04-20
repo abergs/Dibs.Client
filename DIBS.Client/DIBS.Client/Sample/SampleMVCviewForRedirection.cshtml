@@ -1,0 +1,22 @@
+﻿@model Dibs.Client.DibsPost
+<form id="frm" method="post" action="https://sat1.dibspayment.com/dibspaymentwindow/entrypoint">
+<input value="@Model.Merchant" name="merchant" type="hidden" />
+<input value="@Model.Currency" name="currency" type="hidden" />
+<input value="@Model.OrderId" name="orderid" type="hidden" />
+<input value="@Model.Amount" name="amount" type="hidden" />
+<input value="@Model.Language" name="language" type="hidden" />
+<input value="@Model.AcceptReturnUrl" name="acceptreturnurl" type="hidden" />
+<input value="@Model.CancelReturnUrl" name="cancelreturnurl" type="hidden" />
+<input value="@Model.CallbackUrl" name="callbackurl" type="hidden" />
+    @if (Model.Test == "1") {
+    <input value="@Model.Test" name="test" type="hidden" />
+    }
+<input value="@Model.MAC" name="MAC" type="hidden" />
+</form>
+<script type="text/javascript">
+function myfunc () {
+var frm = document.getElementById("frm");
+frm.submit();
+}
+window.onload = myfunc;
+</script>
